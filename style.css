@@ -8,6 +8,33 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar {
+    background: #0800ffc2;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.logoim {
+    width: 85px;
+    margin-right: 10px;
+}
+
 body {
     display: flex;
     align-items: center;
